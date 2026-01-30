@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Si8640EC-B-IS1)(type KiCad)(uri C:/Users/Owner/Documents/KiCad/library/Si8640EC-B-IS1.pretty)(options "")(descr ""))
+  (lib (name A3921KLPTR-T)(type KiCad)(uri C:/Users/Owner/Documents/KiCad/library/A3921KLPTR-T.pretty)(options "")(descr ""))
+  (lib (name myFootprint)(type KiCad)(uri C:/Users/Owner/Documents/KiCad/library/myFootprint.pretty)(options "")(descr ""))
+)

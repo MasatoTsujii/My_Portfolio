@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C-myLibrary
+#
+DEF C-myLibrary C 0 0 N Y 1 F N
+F0 "C" 150 50 50 H V C CNN
+F1 "C-myLibrary" 150 -50 50 H V C CNN
+F2 "" 150 50 50 H I C CNN
+F3 "" 150 50 50 H I C CNN
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_RC0805-myLibrary
+#
+DEF L_RC0805-myLibrary L 0 20 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L_RC0805-myLibrary" 100 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 1 1 0 N 0 0 0 50
+A 0 75 25 -899 899 1 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
