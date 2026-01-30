@@ -1,0 +1,89 @@
+Renesas Optimizing Linker (W3.01.00 )             04-Dec-2019 17:31:17
+
+*** Options ***
+
+-subcommand=DefaultBuild\otamishi.clnk
+-library=DefaultBuild\otamishi.lib
+-input=DefaultBuild\dbsct.obj
+-input=DefaultBuild\intprg.obj
+-input=DefaultBuild\otamishi.obj
+-input=DefaultBuild\resetprg.obj
+-input=DefaultBuild\sbrk.obj
+-input=DefaultBuild\vecttbl.obj
+-input=DefaultBuild\init.obj
+-input=DefaultBuild\relay.obj
+-input=DefaultBuild\omnidirectionaldriver.obj
+-input=DefaultBuild\disp.obj
+-input=DefaultBuild\pid.obj
+-input=DefaultBuild\communication.obj
+-input=DefaultBuild\general.obj
+-noprelink
+-output=DefaultBuild\otamishi.abs
+-list=DefaultBuild\otamishi.map
+-nooptimize
+-start=B_1,R_1,B_2,R_2,B,R,SU,SI/04,PResetPRG/0FFFC0000,C_1,C_2,C,C$DSEC,C$BSEC,C$INIT,C$VTBL,C$VECT,D_1,D_2,D,P,PIntPRG,W_1,W_2,W,L/0FFFC0100,FIXEDVECT/0FFFFFFD0
+-rom=D=R,D_1=R_1,D_2=R_2
+-nologo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+B_1
+                                  00000004  00000004         0   1
+R_1
+                                  00000004  00000004         0   1
+B_2
+                                  00000004  00000004         0   1
+R_2
+                                  00000004  00000007         4   2
+B
+                                  00000008  00000477       470   4
+R
+                                  00000478  000005ab       134   4
+SU
+                                  000005ac  000006ab       100   4
+SI
+                                  000006ac  000009ab       300   4
+PResetPRG
+                                  fffc0000  fffc0030        31   1
+C_1
+                                  fffc0100  fffc0100         0   1
+C_2
+                                  fffc0100  fffc0100         0   1
+C
+                                  fffc0100  fffc0237       138   4
+C$DSEC
+                                  fffc0238  fffc025b        24   4
+C$BSEC
+                                  fffc025c  fffc0273        18   4
+C$INIT
+                                  fffc0274  fffc0274         0   1
+C$VTBL
+                                  fffc0274  fffc0274         0   1
+C$VECT
+                                  fffc0274  fffc0673       400   4
+D_1
+                                  fffc0674  fffc0674         0   1
+D_2
+                                  fffc0674  fffc0677         4   2
+D
+                                  fffc0678  fffc07ab       134   4
+P
+                                  fffc07ac  fffc1fb8      180d   1
+PIntPRG
+                                  fffc1fb9  fffc20bc       104   1
+W_1
+                                  fffc20bd  fffc20bd         0   1
+W_2
+                                  fffc20bd  fffc20bd         0   1
+W
+                                  fffc20bd  fffc20bd         0   1
+L
+                                  fffc20bd  fffc20bd         0   1
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4
