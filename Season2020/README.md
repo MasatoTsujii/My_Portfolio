@@ -52,6 +52,7 @@
     * 統合制御
 
 ## 5. 大会結果・評価
+* **大会映像URL:** https://www.youtube.com/live/jiNWSLm5MmE?si=9rgZbpHFRhxKeb0Y&t=14009
 * **本田技研工業株式会社 特別賞 受賞** (九州沖縄地区大会)
 * **評価点:**
     * トラブルも演出かと思う楽しさがあった。
